@@ -92,7 +92,7 @@ function switchDelete() {
         }
         else {
             var button = document.createElement("button");
-            button.innerHTML = "X";
+            button.innerHTML = "DELETE";
             el.appendChild(button);
             button.onclick = function () { deleteButton(this) };
         }

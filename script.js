@@ -71,10 +71,12 @@ function search(el) {
 
 //controls switch for delete
 var d = false;
-function Dswitch() {
+
+
+function switchDelete() {
     var listTable = document.getElementById("movies");
     var edits;
-    if (adding) {Aswitch();}
+    if (adding) {switchAdd();}
     if (d) {edits = listTable.querySelectorAll("button");}
     else {edits = listTable.querySelectorAll(".linkbutton");}
     var el;
@@ -111,10 +113,9 @@ function deleteButton(b) {
 }
 
 var adding = false;
-function Aswitch() {
 
-    if (d) {Dswitch();}
-
+function switchAdd() {
+    if (d) {switchDelete();}
     var listTable = document.getElementById("movies");
     if (adding) {
         listTable.removeChild(document.getElementById("addingrow"));

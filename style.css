@@ -1,0 +1,58 @@
+/*My styling */
+
+h1{
+  margin: auto;
+  text-align: center;
+  font: 400 58px/60px 'Impact, Charcoal, sans-serif', Georgia, serif;
+  color:#e23636;
+  background-color: #504a4a;
+  text-shadow: 2px 2px #000000;
+  margin: 10px 0;
+}
+
+body{
+  text-align: center;
+  background-image: url(http://hddesktopwallpapers.in/wp-content/uploads/2015/07/marvel-wallpapers-comics.jpg);
+  margin:0px;
+  font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+  color:#000000;
+  background-color: #504a4a;
+}
+
+.box
+{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f78f3f;
+  border: 5px solid #000000;
+  opacity:0.95;
+  display: inline;
+  float: center;
+}
+
+form{
+  margin: auto;
+  width:40%;
+  font-weight: bold;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #000000;
+  border-radius: 4px;
+}
+
+table
+{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+}

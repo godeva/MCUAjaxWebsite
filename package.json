@@ -1,0 +1,24 @@
+{
+  "name": "cs4241-a5-godeva",
+  "version": "0.0.1",
+  "description": "WPI CS 4241 Assignment 5",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "sqlite3": "^3.1.11"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godeva/A5-AJAX.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godeva/A5-AJAX/issues"
+  },
+  "homepage": "https://github.com/godeva/A5-AJAX#readme"
+}

@@ -1,7 +1,7 @@
 {
-  "name": "cs4241-a5-godeva",
+  "name": "MCUAjaxWebsite",
   "version": "0.0.1",
-  "description": "WPI CS 4241 Assignment 5",
+  "description": "Ajax website",
   "author": "",
   "private": true,
   "scripts": {
@@ -14,11 +14,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/godeva/A5-AJAX.git"
+    "url": "git+https://github.com/godeva/MCUAjaxWebsite.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/godeva/A5-AJAX/issues"
+    "url": "https://github.com/godeva/MCUAjaxWebsite/issues"
   },
-  "homepage": "https://github.com/godeva/A5-AJAX#readme"
+  "homepage": "https://github.com/godeva/MCUAjaxWebsite#readme"
 }
